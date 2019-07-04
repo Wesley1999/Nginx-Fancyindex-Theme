@@ -101,24 +101,14 @@ If you want to conserve a few more bytes in network transmissions enable gzip on
 > Reference: [H5BP Nginx Server Config](https://github.com/h5bp/server-configs-nginx/blob/master/nginx.conf)
 
 ## Examples
-### Showing a list of files (without search):
-![Nginx-Fancyindex-Theme__example2](http://7xjh09.com1.z0.glb.clouddn.com/2017-12-27-Nginx-Fancyindex-Theme__example2.png)
-
----
-
-### Filter a list of files (with search):
-![Nginx-Fancyindex-Theme__example1](http://7xjh09.com1.z0.glb.clouddn.com/2017-12-27-Nginx-Fancyindex-Theme__example1.png)
-
----
-
 ### Filter a list of directories (with search):
-![Nginx-Fancyindex-Theme__example3](http://7xjh09.com1.z0.glb.clouddn.com/2017-12-27-Nginx-Fancyindex-Theme__example3.png)
+![Nginx-Fancyindex-Theme__example3](https://lanffy.github.io/images/posts/2017/2017-12-27-15143595456540.jpg)
 
 ---
 
 ### Dark and Light style for chose:
-![FancyIndex-light](http://7xjh09.com1.z0.glb.clouddn.com/2017-12-27-15143568330066.jpg)
-![FancyIndex-dark](http://7xjh09.com1.z0.glb.clouddn.com/2017-12-27-15143572305213.jpg)
+![FancyIndex-light](https://lanffy.github.io/images/posts/2017/2017-12-27-15143595456540.jpg)
+![FancyIndex-dark](https://lanffy.github.io/images/posts/2017/2017-12-27-15143595999553.jpg)
 
 
 ### :scroll: License ? [![GitHub license](https://img.shields.io/github/license/Naereen/Nginx-Fancyindex-Theme.svg)](https://github.com/Naereen/Nginx-Fancyindex-Theme/blob/master/LICENSE)
