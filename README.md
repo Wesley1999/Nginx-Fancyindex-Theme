@@ -107,8 +107,10 @@ If you want to conserve a few more bytes in network transmissions enable gzip on
 ---
 
 ### Dark and Light style for chose:
-![FancyIndex-light](https://lanffy.github.io/images/posts/2017/2017-12-27-15143595456540.jpg)
+#### FancyIndex-dark
 ![FancyIndex-dark](https://lanffy.github.io/images/posts/2017/2017-12-27-15143595999553.jpg)
+#### FancyIndex-light
+![FancyIndex-light](https://lanffy.github.io/images/posts/2017/2017-12-27-15143595456540.jpg)
 
 
 ### :scroll: License ? [![GitHub license](https://img.shields.io/github/license/Naereen/Nginx-Fancyindex-Theme.svg)](https://github.com/Naereen/Nginx-Fancyindex-Theme/blob/master/LICENSE)
