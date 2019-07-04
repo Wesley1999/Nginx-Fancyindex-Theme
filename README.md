@@ -4,6 +4,8 @@ Comes with a search form, aims to handle thousands of files without any problems
 
 The fancyindex module can be found [here](https://github.com/aperezdc/ngx-fancyindex).
 
+And Chinese manual(中文使用手册):[Nginx浏览目录配置及美化](https://lanffy.github.io/2017/12/27/Nginx-Browse-Folder-Config)
+
 [![made-for-nginx](https://img.shields.io/badge/Made%20for-nginx-1f425f.svg)](https://www.nginx.org/)
 
 ## Install Fancyindex Module
