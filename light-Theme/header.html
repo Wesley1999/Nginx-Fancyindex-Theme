@@ -1,11 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="IE=edge">
         <title>Nginx Directory</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/Nginx-Fancyindex-Theme/light-Theme/styles.css">
+	<script src="https://oss-file.wangshaogang.com/lib/jquery/1.12.3/jquery.min.js"></script>
+	<script>
+		function GetUrlRelativePath() {
+			var url = document.location.toString();
+			var arrUrl = url.split("//");
+			var start = arrUrl[1].indexOf("/");
+			var relUrl = arrUrl[1].substring(start);
+			if(relUrl.indexOf("?") != -1){
+				relUrl = relUrl.split("?")[0];
+			}
+			return relUrl;
+		}
+		$(function() {
+			let prefix = "https://oss-file.wangshaogang.com/" + GetUrlRelativePath();
+			$(".link").each(function(){
+				let a = $(this).children().eq(0);
+				let href = a.attr("href");
+				if (href.search("/") == -1) {
+					a.attr("href", prefix + href);
+				}
+			});
+		})
+	</script>
     </head>
 <body>
 <h1>Directory:
