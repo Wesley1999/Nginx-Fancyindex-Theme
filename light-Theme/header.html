@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="IE=edge">
-        <title>Nginx Directory</title>
+        <title>Index</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/Nginx-Fancyindex-Theme/light-Theme/styles.css">
 	<script src="https://oss-file.wangshaogang.com/lib/jquery/1.12.3/jquery.min.js"></script>
@@ -19,7 +19,7 @@
 			return relUrl;
 		}
 		$(function() {
-			let prefix = "https://oss-file.wangshaogang.com/" + GetUrlRelativePath();
+			let prefix = "https://oss-file.wangshaogang.com" + GetUrlRelativePath();
 			$(".link").each(function(){
 				let a = $(this).children().eq(0);
 				let href = a.attr("href");
